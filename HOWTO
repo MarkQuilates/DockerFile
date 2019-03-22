@@ -1,6 +1,0 @@
-
-Image of this Dockerfile already pushed to hub.docker.com @ markquilates/centos-nginx:proxy
-
-To run the image in the proxy_server:
-
-	# docker run --name proxy_name -it -d -p 80:80 -p 443:443 -v /file/of/conf.d/:/etc/nginx/conf.d -v /file/of/cert.key/://etc/letsencrypt/live/cert.key markquilates/centos-nginx:proxy
